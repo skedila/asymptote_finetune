@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+\let\paperwidthsave\paperwidth\let\paperwidth\undefined
+\usepackage{graphicx}
+\let\paperwidth\paperwidthsave
+\newbox\ASYbox
+\newdimen\ASYdimen
+\def\ASYprefix{}
+\long\def\ASYbase#1#2{\leavevmode\setbox\ASYbox=\hbox{#1}%\ASYdimen=\ht\ASYbox%
+\setbox\ASYbox=\hbox{#2}\lower\ASYdimen\box\ASYbox}
+\long\def\ASYaligned(#1,#2)(#3,#4)#5#6#7{\leavevmode%
+\setbox\ASYbox=\hbox{#7}%
+\setbox\ASYbox\hbox{\ASYdimen=\ht\ASYbox%
+\advance\ASYdimen by\dp\ASYbox\kern#3\wd\ASYbox\raise#4\ASYdimen\box\ASYbox}%
+\setbox\ASYbox=\hbox{#5\wd\ASYbox 0pt\dp\ASYbox 0pt\ht\ASYbox 0pt\box\ASYbox#6}%
+\hbox to 0pt{\kern#1pt\raise#2pt\box\ASYbox\hss}}%
+\long\def\ASYalignT(#1,#2)(#3,#4)#5#6{%
+\ASYaligned(#1,#2)(#3,#4){%
+\special{pdf:q #5 0 0 cm}%
+}{%
+\special{pdf:Q}%
+}{#6}}
+\long\def\ASYalign(#1,#2)(#3,#4)#5{\ASYaligned(#1,#2)(#3,#4){}{}{#5}}
+\def\ASYraw#1{#1}
+\pdfpagewidth=228.970404bp
+\ifx\pdfhorigin\undefined
+\hoffset=-1in
+\voffset=-1in
+\pdfpageheight=214.366564bp
+\else
+\pdfhorigin=0bp
+\pdfvorigin=0bp
+\pdfpageheight=214.366564bp
+\fi
+\setlength{\unitlength}{1pt}%
+\pagestyle{empty}
+\textheight=232.366564bp
+\textwidth=246.970404bp
+\parindent=0pt
+\oddsidemargin=0pt
+\evensidemargin=\oddsidemargin
+\headheight=0pt
+\headsep=0pt
+\topmargin=0pt
+\topskip=0pt
+\begin{document}
+\makeatletter%
+\let\ASYencoding\f@encoding%
+\let\ASYfamily\f@family%
+\let\ASYseries\f@series%
+\let\ASYshape\f@shape%
+\makeatother%
+{\catcode`"=12%
+\includegraphics{0159_0}%
+}%
+\kern -229.829043pt%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+\ASYalign(114.914521,72.507154)(-0.500000,0.179999){\small$P_0$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(159.095946,41.858706)(0.000000,-0.225928){\small$Q_0$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(162.791021,81.792954)(0.000000,-0.482460){\small$R_0$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(177.922380,10.626095)(-0.136729,-0.820001){\small$S_0$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(138.540495,89.672428)(-1.000000,-0.157541){\small$P_1$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(181.341711,122.220569)(-0.393722,0.221520){\small$Q_1$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(144.503825,138.075155)(-0.136729,0.179999){\small$R_1$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(216.863378,130.474164)(0.000000,-0.157541){\small$S_1$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(129.516176,117.446425)(-0.863271,-0.820001){\small$P_2$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(111.787358,168.210730)(-1.000000,0.010195){\small$Q_2$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(85.325218,138.075155)(-0.863271,0.179999){\small$R_2$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(114.914521,204.544343)(-0.500000,0.179999){\small$S_2$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(100.312867,117.446425)(-0.136729,-0.820001){\small$P_3$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(46.554638,116.272350)(-1.000000,-0.728682){\small$Q_3$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(67.038022,81.792954)(-1.000000,-0.482460){\small$R_3$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(12.965665,130.474164)(-1.000000,-0.157541){\small$S_3$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(91.288548,89.672428)(0.000000,-0.157541){\small$P_4$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(75.792954,38.182505)(-0.277386,-0.778480){\small$Q_4$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(114.914521,47.008642)(-0.500000,-0.820001){\small$R_4$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(51.906663,10.626095)(-0.863271,-0.820001){\small$S_4$}%
+\end{document}

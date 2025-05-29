@@ -1,0 +1,1 @@
+label(rotate(15) * scale(5) * "\textbf{Hello}");

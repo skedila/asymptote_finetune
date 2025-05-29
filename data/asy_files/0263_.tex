@@ -1,0 +1,117 @@
+\documentclass[12pt]{article}
+\let\paperwidthsave\paperwidth\let\paperwidth\undefined
+\usepackage{graphicx}
+\let\paperwidth\paperwidthsave
+\newbox\ASYbox
+\newdimen\ASYdimen
+\def\ASYprefix{}
+\long\def\ASYbase#1#2{\leavevmode\setbox\ASYbox=\hbox{#1}%\ASYdimen=\ht\ASYbox%
+\setbox\ASYbox=\hbox{#2}\lower\ASYdimen\box\ASYbox}
+\long\def\ASYaligned(#1,#2)(#3,#4)#5#6#7{\leavevmode%
+\setbox\ASYbox=\hbox{#7}%
+\setbox\ASYbox\hbox{\ASYdimen=\ht\ASYbox%
+\advance\ASYdimen by\dp\ASYbox\kern#3\wd\ASYbox\raise#4\ASYdimen\box\ASYbox}%
+\setbox\ASYbox=\hbox{#5\wd\ASYbox 0pt\dp\ASYbox 0pt\ht\ASYbox 0pt\box\ASYbox#6}%
+\hbox to 0pt{\kern#1pt\raise#2pt\box\ASYbox\hss}}%
+\long\def\ASYalignT(#1,#2)(#3,#4)#5#6{%
+\ASYaligned(#1,#2)(#3,#4){%
+\special{pdf:q #5 0 0 cm}%
+}{%
+\special{pdf:Q}%
+}{#6}}
+\long\def\ASYalign(#1,#2)(#3,#4)#5{\ASYaligned(#1,#2)(#3,#4){}{}{#5}}
+\def\ASYraw#1{#1}
+\pdfpagewidth=340.157480bp
+\ifx\pdfhorigin\undefined
+\hoffset=-1in
+\voffset=-1in
+\pdfpageheight=231.521280bp
+\else
+\pdfhorigin=0bp
+\pdfvorigin=0bp
+\pdfpageheight=231.521280bp
+\fi
+\setlength{\unitlength}{1pt}%
+\pagestyle{empty}
+\textheight=249.521280bp
+\textwidth=358.157480bp
+\parindent=0pt
+\oddsidemargin=0pt
+\evensidemargin=\oddsidemargin
+\headheight=0pt
+\headsep=0pt
+\topmargin=0pt
+\topskip=0pt
+\begin{document}
+\makeatletter%
+\let\ASYencoding\f@encoding%
+\let\ASYfamily\f@family%
+\let\ASYseries\f@series%
+\let\ASYshape\f@shape%
+\makeatother%
+{\catcode`"=12%
+\includegraphics{0263_0}%
+}%
+\kern -341.433071pt%
+\special{pdf:1 0 0 rg}%
+\special{pdf:1 0 0 RG}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+\ASYalign(110.190969,21.688175)(-0.250000,-1.000000){$\vec{\imath}$}%
+\special{pdf:1 0 0 rg}%
+\special{pdf:1 0 0 RG}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(80.861134,27.033324)(-1.000000,-0.619005){$\vec{\jmath}$}%
+\special{pdf:1 0 0 rg}%
+\special{pdf:1 0 0 RG}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(80.861134,27.033324)(-1.000000,-0.619005){$\vec{\jmath}$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(90.248823,9.701125)(-0.632782,-1.000000){$O$}%
+\special{pdf:1 0 0 rg}%
+\special{pdf:1 0 0 RG}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(183.722546,131.996702)(-1.000000,-0.500000){$C$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(140.292354,74.888109)(-0.500000,-0.820001){$F_1$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(241.596489,181.883420)(-0.500000,-0.820001){$F_2$}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(262.512238,203.771339)(0.000000,-0.250000){angpoint(el, 0)}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(105.839197,111.255422)(-1.000000,0.250000){angpoint(el, 90)}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(140.541345,179.854607)(-1.000000,0.250000){angpoint(el,90,fromCenter)}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(119.376604,60.222065)(-1.000000,-0.250000){angpoint(el, 180)}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(174.745511,45.742670)(0.000000,-0.750000){angpoint(el, 270)}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(233.852445,218.888360)(0.000000,0.250000){angpoint(el, 370)}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(235.694881,78.482562)(0.000000,-0.750000){angpoint(el, -45)}%
+\special{pdf:0.000000 g}%
+\special{pdf:0.000000 G}%
+\fontsize{12.000000}{14.400000}\selectfont%
+\ASYalign(268.453521,130.503475)(-0.500000,-0.750000){angpoint(el,-45,fromCenter)}%
+\end{document}

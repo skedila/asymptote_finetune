@@ -1,0 +1,10 @@
+transformers==4.47.0
+datasets>=2.14.5
+peft>=0.7.1
+accelerate>=0.27.2
+bitsandbytes>=0.43.0
+scikit-image
+sentencepiece  # Only if tokenizer.model is used
+matplotlib     # For plotting evaluation results
+python-dotenv  # If secrets/envs are used (optional)
+fsspec==2025.3.2
